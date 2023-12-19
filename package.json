@@ -1,0 +1,22 @@
+{
+  "name": "e_com_api_cn",
+  "version": "1.0.0",
+  "description": "Ecommerce app api for product management",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "E-Commerce",
+    "API"
+  ],
+  "author": "Boddupally Manoj Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2"
+  }
+}
