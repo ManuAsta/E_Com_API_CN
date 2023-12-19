@@ -107,6 +107,7 @@ module.exports.updateProductQuantity=async function(req,res){
          }else{
             return res.status(200).json({
                 data:{
+                    product:updatedProduct,
                     message:"Product Updated Succesfully"
                 }
             })
